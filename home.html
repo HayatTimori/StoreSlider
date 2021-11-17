@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compaitable" content="ie-edge">
+    <title>Home page</title>
+    <link rel="stylesheet" href="./css/home-style.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-right">
+                <a href="#"><i class="far fa-user"></i></a>
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                <a href="#"><i class="fas fa-home"></i></a>
+                <a href="#"><i class="fas fa-search"></i></a>
+            </div>
+            <div class="nav-left">
+                <div class="register-login-btn">
+                    <i class="fas fa-user"></i>
+                    <a href="#">ثبت نام / ورود</a>
+                </div>
+            </div>
+        </nav>
+        <section class="slider">
+            <div class="slides">
+                <div class="item active" id="slide1" >
+                    <img src="./image/s1.jpg" alt="">
+                    <span>آهنگ ها رو زنده تر از جیزی که هستن گوش بده</span>
+                </div>
+                <div class="item" id="slide2">
+                    <img src="./image/s2.jpg" alt="">
+                    <span>کیفیت صدایی که <br>همیشه دنبالش بودی اینجاست</span>
+                </div>
+                <div class="item" id="slide3">
+                    <img src="./image/s3.jpg" alt="">
+                    <span>رویا هاتو با صدای بلند گوش بده</span>
+                </div>
+            </div>
+            <div class="buttons">
+                <i class="fas fa-circle" onclick="setSlide('slide1', 1)"></i>
+                <i class="fas fa-circle" onclick="setSlide('slide2', 2)"></i>
+                <i class="fas fa-circle" onclick="setSlide('slide3', 3)"></i>
+            </div>
+        </section>
+    </header> 
+    
+    <script src="./js/app.js"></script>
+</body>
+</html>
